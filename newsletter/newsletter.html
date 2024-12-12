@@ -7,15 +7,21 @@
     <link rel="icon" href="../img/newsletter/floppy-disk-solid.svg">
 </head>
 <body bgcolor="#EDFDFC">
+    <header>
+        <div style="background-color: rgb(255, 255, 255);">
+            <div align="center">
+                <h1>Formulario de suscripción</h1>
+            </div>
+            <div align="right">
+                <a href="../pag_discos/index.html"><button>Ir a página de discos</button></a>
+                <a href="../../index.html"><button>Ir a Menú principal</button></a>
+            </div>
+    </header>
 
-    <!-- Contenedor principal -->
+
     <div align="center">
-        <h1 style="background-color: rgb(255, 255, 255);">Formulario de inscripción</h1>
         <br>
-        
         <p>¡Únete a la comunidad de Noriel y no te pierdas nada! Al registrarte, vas a recibir:</p>
-        
-        <!-- Contenedor para centrar la lista -->
         <div align="center">
             <ul align="center">
                 <li><strong>Lanzamientos exclusivos:</strong> Sé de los primeros en escuchar sus nuevas canciones y discos.</li>
@@ -30,11 +36,10 @@
     </div>
     <br>
 
-    <!-- Formulario -->
     <form action="recepcion.php" method="post" align="center">
         
         <table align="center">
-            <!-- Fila para Nombre y Apellidos -->
+
             <tr>
                 <td><label for="nombre">Nombre:</label><br>
                     <input type="text" id="nombre" name="nombre" placeholder="Introduce tu nombre">
@@ -43,7 +48,6 @@
                     <input type="text" id="apellido" name="apellido" placeholder="Introduce tus apellidos">
                 </td>
             </tr>
-            <!-- Fila para Edad y Correo Electrónico -->
             <tr>
                 <td><label for="edad">Edad:</label><br>
                     <input type="number" id="edad" name="edad" placeholder="Introduce tu edad">
@@ -56,7 +60,6 @@
 
         <br>
 
-        <!-- Fila para País -->
         <label for="pais">País:</label><br>
         <select id="pais" name="pais">
             <option value="" selected>Selecciona tu país</option>
@@ -70,7 +73,6 @@
         <br>
         <br>
 
-        <!-- Sección de Preferencias Musicales -->
         <fieldset>
             <legend>Preferencias Musicales:</legend>
             <input type="checkbox" id="trap" name="genero" value="Trap">
@@ -110,7 +112,6 @@
             <br>
         </section>
 
-    <!-- Pie de página -->
     <footer align="center">
         <p style="background-color: rgb(255, 255, 255);">"Noriel: Innovador del trap y voz del reguetón."</p>
     </footer>
